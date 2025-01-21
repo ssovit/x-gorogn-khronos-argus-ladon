@@ -1,0 +1,8 @@
+fastapi
+uvicorn 
+pydantic
+pycryptodome
+opencv-python-headless
+numpy
+python-multipart
+requests
