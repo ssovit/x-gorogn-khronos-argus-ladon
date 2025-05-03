@@ -52,8 +52,8 @@ def captcha(puzzle: str = Form(...), piece: str = Form(...)):
 def x_gorgon(req: XGorgonDict):
     try:
         xg = XGorgon()
-        # req.headers shall contain x-ss-stub (md5) of post body for post request
-        # req.headers shall contain cookie as string 
+        # for post requests req.headers shall contain x-ss-stub (md5) of post body for post request
+        # req.headers should contain cookie as string 
         return xg.calculate(req.params, req.headers)
     except Exception as e:
         print(e)
@@ -74,10 +74,10 @@ def tt_encrypt(req: PostBase64Dict):
 
 
 @app.post("/tt_decrypt")
-def tt_encrypt(req: PostBase64Dict):
+def tt_decrypt(req: PostBase64Dict):
     try:
         ttencrypt = TT()
-        # req.base64 = Base64 encoded value of ttencrypted binary post body
+        # req.base64 = Base64 encoded value of ttencrypted binary of post body
         body = base64.b64decode(req.base64)
         data = ttencrypt.decrypt(body)
         return data
@@ -86,7 +86,7 @@ def tt_encrypt(req: PostBase64Dict):
 
 
 @app.post("/xlog_encrypt")
-def tt_encrypt(req: PostBase64Dict):
+def xlog_encrypt(req: PostBase64Dict):
     try:
         lib = XLOG()
         # req.base64 = Base64 encoded value of JSON post body stringified
@@ -99,7 +99,7 @@ def tt_encrypt(req: PostBase64Dict):
 
 
 @app.post("/xlog_decrypt")
-def tt_encrypt(req: PostBase64Dict):
+def xlog_encrypt(req: PostBase64Dict):
     try:
         lib = XLOG()
         body = base64.b64decode(req.base64)
@@ -115,6 +115,7 @@ def x_argus(req: XArgusDict):
     try:
         params=req.params
         # timestamp = X-Khronos value from X-Gorgon generation
+        # stub would be same as x-ss-stub header for request and is md5 signature value of post body
         data= Argus.get_sign(params,timestamp=req.timestamp,stub=req.stub)
         return {"x-argus":str(data)}
     except Exception as e:
