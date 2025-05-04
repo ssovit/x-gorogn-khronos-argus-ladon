@@ -1,7 +1,5 @@
 # TikTok Algorithms (X-Gorgon, X-Khronos, XLOG 02, TTEncrypt 05, X-Argus, X-Ladon)
 
-[![IPRoyal](assets/proxy.jpg)](https://iproyal.com/?r=ttproxy)
-
 These are just few of TikTok algorithms that is used by the mobile application. It might be useful for your next TikTok project.
 
 ---
@@ -15,7 +13,6 @@ If you find this project helpful and want to support its development, feel free 
 - **BTC:** `1KA78sxnqEYPdni4txdieGJzVkH8AEn9dy`
 - **ETH:** `0xfbfe8b8123572510413b10a0eda3819f29cdbf2b`
 - **USDT (TRC20):** `TDDZi86Karm6d6dVWjbjtJXkTgjGaCcPFW`
-
 
 Your support helps me keep this project alive and updated. Thank you!
 
@@ -48,18 +45,20 @@ Sure, make a pull request.
 
 ---
 
+## 🙏 Donations
+
+Even a small contribution makes a big difference!
+
+[![Donate](https://img.shields.io/badge/Donate-OxaPay-blue?logo=bitcoin&style=for-the-badge)](https://pay.oxapay.com/43013861)
+
+- **BTC:** `1KA78sxnqEYPdni4txdieGJzVkH8AEn9dy`
+- **ETH:** `0xfbfe8b8123572510413b10a0eda3819f29cdbf2b`
+- **USDT (TRC20):** `TDDZi86Karm6d6dVWjbjtJXkTgjGaCcPFW`
+
+---
+
 ## Disclaimer
 
 Won't be responsible if used this for other purposes than educational. 
 
 Again, **USE THIS FOR EDUCATIONAL PURPOSES ONLY**
-
----
-
-## 🙏 Donations
-
-Even a small contribution makes a big difference!
-
-- **BTC:** `1KA78sxnqEYPdni4txdieGJzVkH8AEn9dy`
-- **ETH:** `0xfbfe8b8123572510413b10a0eda3819f29cdbf2b`
-- **USDT (TRC20):** `TDDZi86Karm6d6dVWjbjtJXkTgjGaCcPFW`
