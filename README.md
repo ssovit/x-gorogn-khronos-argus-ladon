@@ -10,6 +10,8 @@ These are just few of TikTok algorithms that is used by the mobile application. 
 
 If you find this project helpful and want to support its development, feel free to donate via crypto:
 
+[![Donate](https://img.shields.io/badge/Donate-OxaPay-blue?logo=bitcoin&style=for-the-badge)](https://pay.oxapay.com/43013861)
+
 - **BTC:** `1KA78sxnqEYPdni4txdieGJzVkH8AEn9dy`
 - **ETH:** `0xfbfe8b8123572510413b10a0eda3819f29cdbf2b`
 - **USDT (TRC20):** `TDDZi86Karm6d6dVWjbjtJXkTgjGaCcPFW`
