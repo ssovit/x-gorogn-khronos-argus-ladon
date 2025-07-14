@@ -1,7 +1,7 @@
 
 import hashlib
 from copy import deepcopy
-from time import time
+import time
 
 class XGorgon:
     def __encryption(self):
@@ -74,7 +74,6 @@ class XGorgon:
         result = ''
         for item in self.__handle(self.__initialize(gorgon, self.__encryption())):
             result = result + self.__hex2string(item)
-        print(result)
         return '0404{hash1}{hash2}{hash3}{hash4}{hash5}'.format(
             hash1=self.__hex2string(self.hex_str[7]),
             hash2=self.__hex2string(self.hex_str[3]),
@@ -108,11 +107,11 @@ class XGorgon:
             tmp_string = '0' + tmp_string
         return tmp_string
 
-    def calculate(self, url, headers={}):
+    def calculate(self, params:str, headers={}):
         gorgon = []
         headers2 = {}
-        Khronos = hex(int(time()))[2:]
-        url_md5 = hashlib.md5(url.encode("UTF-8")).hexdigest()
+        Khronos = hex(int(time.time()))[2:]
+        url_md5 = hashlib.md5(params.encode("UTF-8")).hexdigest()
         for i in range(0, 4):
             gorgon.append(int(url_md5[2 * i: 2 * i + 2], 16))
 

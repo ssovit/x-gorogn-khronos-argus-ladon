@@ -98,3 +98,9 @@ def xor(data, key=5):
         datas = datas + binascii.hexlify(bytes(chr(ord(data[i]) ^ key), "UTF-8")).decode()
         i = i + 1
     return datas
+
+def getUNIX(add: bool = False, addRandom: int = 0) -> int:
+    if add:
+        return int(round((time.time() * 1000)) + addRandom)
+    else:
+        return int(round(time.time()))

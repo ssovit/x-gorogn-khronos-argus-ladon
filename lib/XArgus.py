@@ -33,7 +33,6 @@ class Argus:
 
     @staticmethod
     def get_queryhash(query: str) -> bytes:
-        print(query)
         if not isinstance(query, str):
             raise ValueError("query must be a string")
         return (
@@ -103,17 +102,17 @@ class Argus:
                 12: timestamp << 1,  # createTime
                 13: Argus.get_bodyhash(stub),  # bodyHash
                 14: Argus.get_queryhash(params),  # queryHash
-                15: {
-                    1: 1,  # signCount
-                    2: 1,  # reportCount
-                    3: 1,  # settingCount
-                    7: 3348294860,
-                },
+                # 15: {
+                #     1: 1,  # signCount
+                #     2: 1,  # reportCount
+                #     3: 1,  # settingCount
+                #     7: 3348294860,
+                # },
                 16: sec_device_id,  # secDeviceToken
                 # 17: timestamp,                     # isAppLicense
                 20: "none",  # pskVersion
                 21: 738,  # callType
-                23: {1: "NX551J", 2: 8196, 4: 2162219008},
+                # 23: {1: "NX551J", 2: 8196, 4: 2162219008},
                 25: 2,
             }
         )

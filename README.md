@@ -4,6 +4,23 @@ These are just few of TikTok algorithms that is used by the mobile application. 
 
 ---
 
+# 🎯 Looking for TikTok Scraper API
+
+A powerful, easy-to-use TikTok Scraper API designed for developers. Easily fetch posts, profiles, stats, and more — all without needing official access tokens.
+
+## 🚀 Features
+
+- ✅ No login or token required
+- 📹 Scrape posts from user profiles
+- 📊 Get view, like, and comment stats
+- 🔍 Search by keywords or hashtags
+- 🌍 Optional proxy support
+- ⚡ High performance & lightweight
+
+🔗 [More Details](https://github.com/ssovit/tiktok-scraper)
+
+---
+
 ## 💖 Support the Project
 
 If you find this project helpful and want to support its development, feel free to donate via crypto:
