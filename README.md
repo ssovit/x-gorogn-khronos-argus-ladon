@@ -34,6 +34,8 @@ If you find this project helpful and want to support its development, feel free 
 Your support helps me keep this project alive and updated. Thank you!
 
 ---
+[![Discord](https://discord.com/api/guilds/820856055936188456/widget.png?style=banner4)](https://discord.gg/XBHydWEYZZ)
+---
 
 ## Contains?
 - X-Gorgon and X-Khronos v0404
